@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.lorena.eldenring.gui.CharacterInformation">
+  <grid id="27dc6" binding="characterInformationPanel" layout-manager="FormLayout">
+    <rowspec value="center:17px:noGrow"/>
+    <rowspec value="center:36px:noGrow"/>
+    <rowspec value="center:19px:noGrow"/>
+    <rowspec value="center:99px:noGrow"/>
+    <rowspec value="center:20px:noGrow"/>
+    <rowspec value="center:19px:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="center:33px:noGrow"/>
+    <rowspec value="center:16px:noGrow"/>
+    <rowspec value="center:d:grow"/>
+    <colspec value="fill:801px:grow"/>
+    <constraints>
+      <xy x="20" y="77" width="995" height="579"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="2f596" class="javax.swing.JLabel" binding="txtGender">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="𝔈𝔩𝔦𝔤𝔢 𝔢𝔩 𝔤𝔢́𝔫𝔢𝔯𝔬 𝔡𝔢𝔩 𝔭𝔢𝔯𝔰𝔬𝔫𝔞𝔧𝔢:"/>
+        </properties>
+      </component>
+      <component id="8d24" class="javax.swing.JLabel" binding="txtDate">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="ℑ𝔫𝔱𝔯𝔬𝔡𝔲𝔠𝔢 𝔩𝔞 𝔣𝔢𝔠𝔥𝔞 𝔡𝔢 𝔫𝔞𝔠𝔦𝔪𝔢𝔫𝔱𝔬:"/>
+        </properties>
+      </component>
+      <component id="15bdf" class="javax.swing.JLabel" binding="txtItem">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="𝔖𝔢𝔩𝔢𝔠𝔠𝔦𝔬𝔫𝔞 𝔲𝔫 𝔦𝔱𝔢𝔪 𝔦𝔫𝔦𝔠𝔦𝔞𝔩::"/>
+        </properties>
+      </component>
+      <component id="616c0" class="javax.swing.JLabel" binding="txtClasses">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="𝔖𝔢𝔩𝔢𝔠𝔠𝔦𝔬𝔫𝔞 𝔲𝔫𝔞 𝔠𝔩𝔞𝔰𝔢:"/>
+        </properties>
+      </component>
+      <component id="5c41f" class="javax.swing.JTextField" binding="textFieldName">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="cdc2f" class="javax.swing.JTextArea" binding="textAreaClasses">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="a5711" class="javax.swing.JComboBox" binding="JComboBoxM">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="𝔙𝔞𝔤𝔞𝔫𝔱𝔢"/>
+            <item value="𝔊𝔲𝔢𝔯𝔯𝔢𝔯𝔬"/>
+            <item value="ℌ𝔢́𝔯𝔬𝔢"/>
+            <item value="𝔅𝔞𝔫𝔡𝔦𝔡𝔬"/>
+            <item value="𝔓𝔯𝔬𝔣𝔢𝔱𝔞"/>
+            <item value="𝔄𝔰𝔱𝔯𝔬́𝔩𝔬𝔤𝔬"/>
+            <item value="𝔓𝔯𝔦𝔰𝔦𝔬𝔫𝔢𝔯𝔬"/>
+            <item value="𝔖𝔞𝔪𝔲𝔯𝔞́𝔦"/>
+            <item value="𝔐𝔦𝔰𝔢𝔯𝔞𝔟𝔩𝔢"/>
+            <item value="ℭ𝔬𝔫𝔣𝔢𝔰𝔬𝔯"/>
+          </model>
+        </properties>
+      </component>
+      <component id="f1675" class="javax.swing.JComboBox" binding="JComboBoxF">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="𝔙𝔞𝔤𝔞𝔫𝔱𝔢"/>
+            <item value="𝔊𝔲𝔢𝔯𝔯𝔢𝔯𝔞"/>
+            <item value="ℌ𝔢́𝔯𝔬𝔢"/>
+            <item value="𝔅𝔞𝔫𝔡𝔦𝔡𝔞"/>
+            <item value="𝔓𝔯𝔬𝔣𝔢𝔱𝔞"/>
+            <item value="𝔄𝔰𝔱𝔯𝔬́𝔩𝔬𝔤𝔞"/>
+            <item value="𝔓𝔯𝔦𝔰𝔦𝔬𝔫𝔢𝔯𝔞"/>
+            <item value="𝔖𝔞𝔪𝔲𝔯𝔞́𝔦"/>
+            <item value="𝔐𝔦𝔰𝔢𝔯𝔞𝔟𝔩𝔢"/>
+            <item value="ℭ𝔬𝔫𝔣𝔢𝔰𝔬𝔯𝔞"/>
+          </model>
+        </properties>
+      </component>
+      <component id="ee613" class="javax.swing.JLabel" binding="txtName">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <text value="ℑ𝔫𝔱𝔯𝔬𝔡𝔲𝔠𝔢 𝔢𝔩 𝔫𝔬𝔪𝔟𝔯𝔢 𝔡𝔢𝔩 𝔭𝔢𝔰𝔬𝔫𝔞𝔧𝔢:"/>
+        </properties>
+      </component>
+      <grid id="bbe63" binding="genderPanel" layout-manager="FormLayout">
+        <rowspec value="center:18px:noGrow"/>
+        <colspec value="fill:76px:noGrow"/>
+        <colspec value="fill:max(d;4px):noGrow"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="bd5a6" class="javax.swing.JRadioButton" binding="maleButton">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-horz="false" defaultalign-vert="false"/>
+            </constraints>
+            <properties>
+              <text value="𝔐𝔞𝔰𝔠𝔲𝔩𝔦𝔫𝔬"/>
+            </properties>
+          </component>
+          <component id="40929" class="javax.swing.JRadioButton" binding="femButton">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-horz="false"/>
+            </constraints>
+            <properties>
+              <text value="𝔉𝔢𝔪𝔢𝔫𝔦𝔫𝔬"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="genderButtons">
+      <member id="40929"/>
+      <member id="bd5a6"/>
+    </group>
+  </buttonGroups>
+</form>

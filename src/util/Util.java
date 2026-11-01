@@ -20,11 +20,12 @@ public class Util {
         b.setBorder(new LineBorder(GOLDEN, 1));
     }
 
-    // Ventana.
-    public static JFrame show(String title, JPanel panel) {
+    // Ventana portada.
+    public static JFrame show(String title, JPanel panel, boolean resizable) {
         JFrame frame = new JFrame(title);
         frame.setContentPane(panel);
-        frame.setSize(400, 600);
+        frame.setResizable(resizable);   // antes de pack()
+        frame.pack();
         frame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
         frame.addWindowListener(new java.awt.event.WindowAdapter() {
             @Override
@@ -38,6 +39,11 @@ public class Util {
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
         return frame;
+    }
+
+    // Ventana normal.
+    public static JFrame show(String title, JPanel panel) {
+        return show(title, panel, true);
     }
 
     // Mensajes de error y de información.
@@ -81,6 +87,9 @@ public class Util {
         File file = fileChooser.getSelectedFile();
         if (!file.getName().toLowerCase().endsWith("." + extension)) {
             file = new File(file.getAbsolutePath() + "." + extension);
+        }
+        if (file.exists() && !confirmOverwrite(parent, file)) {
+            return null;
         }
         return file;
     }
