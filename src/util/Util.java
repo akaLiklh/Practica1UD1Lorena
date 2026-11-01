@@ -54,7 +54,7 @@ public class Util {
                 "Salir", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE) == JOptionPane.YES_OPTION;
     }
 
-    // Configuración de los ficheros.
+    // Gestión de los ficheros.
     public static boolean confirmOverwrite(Component parent, File file) {
         return JOptionPane.showConfirmDialog(parent,
                 "El fichero " + file.getName() + " ya existe. ¿Quieres sobrescribirlo?",

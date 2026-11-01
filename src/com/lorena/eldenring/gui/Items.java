@@ -1,4 +1,4 @@
 package com.lorena.eldenring.gui;
 
-public class items {
+public class Items {
 }
