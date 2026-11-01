@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.lorena.eldenring.gui.Interfaz">
+  <grid id="27dc6" binding="panelPrincipal" layout-manager="FormLayout">
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <colspec value="fill:115px:noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:108px:noGrow"/>
+    <colspec value="left:10dlu:noGrow"/>
+    <colspec value="fill:max(d;4px):noGrow"/>
+    <constraints>
+      <xy x="20" y="16" width="383" height="404"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="c0d8" class="javax.swing.JButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="Buscar"/>
+        </properties>
+      </component>
+      <component id="3b559" class="javax.swing.JButton" binding="exportarButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="Exportar"/>
+        </properties>
+      </component>
+      <component id="68de7" class="javax.swing.JTextField" binding="Titulo">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <text value="ELDEN RING: Selección de personaje"/>
+        </properties>
+      </component>
+      <component id="caa9c" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Vagante"/>
+            <item value="Guerrero"/>
+            <item value="Héroe"/>
+            <item value="Bandido"/>
+            <item value="Profeta"/>
+            <item value="Astrólogo"/>
+            <item value="Prisionero"/>
+            <item value="Samurái"/>
+            <item value="Miserable"/>
+            <item value="Confesor"/>
+          </model>
+        </properties>
+      </component>
+      <component id="dc137" class="javax.swing.JButton" binding="nuevoButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="Nuevo"/>
+        </properties>
+      </component>
+      <component id="6ab8c" class="javax.swing.JButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="Importar"/>
+        </properties>
+      </component>
+      <component id="7efe1" class="javax.swing.JButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="Actualizar"/>
+        </properties>
+      </component>
+      <component id="1b1b1" class="javax.swing.JButton" binding="borrarButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="Borrar"/>
+        </properties>
+      </component>
+      <component id="b197" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="Clase"/>
+        </properties>
+      </component>
+      <component id="d5efa" class="javax.swing.JComboBox" default-binding="true">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Vagante"/>
+            <item value="Guerrera"/>
+            <item value="Héroe"/>
+            <item value="Bandida"/>
+            <item value="Profeta"/>
+            <item value="Astróloga"/>
+            <item value="Prisionera"/>
+            <item value="Samurái"/>
+            <item value="Miserable"/>
+            <item value="Confesora"/>
+          </model>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
