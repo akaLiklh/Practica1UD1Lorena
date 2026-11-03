@@ -20,11 +20,77 @@ public class Util {
         b.setBorder(new LineBorder(GOLDEN, 1));
     }
 
+    public static void styleLabel(JLabel l) {
+        l.setForeground(GOLDEN);
+    }
+
+    public static void styleTextField(JTextField t) {
+        t.setBackground(GREEN);
+        t.setForeground(Color.WHITE);
+        t.setCaretColor(GOLDEN);
+        t.setBorder(BorderFactory.createCompoundBorder(
+                new LineBorder(GOLDEN, 1), BorderFactory.createEmptyBorder(2, 6, 2, 6)));
+    }
+
+    public static void styleTextArea(JTextArea t) {
+        t.setBackground(GREEN);
+        t.setForeground(Color.WHITE);
+        t.setCaretColor(GOLDEN);
+        t.setLineWrap(true);
+        t.setWrapStyleWord(true);
+        t.setBorder(BorderFactory.createCompoundBorder(
+                new LineBorder(GOLDEN, 1), BorderFactory.createEmptyBorder(4, 6, 4, 6)));
+    }
+
+    public static void styleComboBox(JComboBox<?> c) {
+        c.setBackground(GREEN);
+        c.setForeground(Color.WHITE);
+        c.setBorder(new LineBorder(GOLDEN, 1));
+    }
+
+    public static void styleRadioButton(JRadioButton r) {
+        r.setOpaque(false);
+        r.setForeground(GOLDEN);
+        r.setFocusPainted(false);
+    }
+
+    private static final Dimension SCREEN_DIMENSION = new Dimension(800, 650);
+
+    public static void switchScreens(Component origin, JPanel newPanel) {
+        JFrame frame = (JFrame) SwingUtilities.getWindowAncestor(origin);
+        frame.setContentPane(newPanel);
+        frame.setResizable(true);
+        frame.setSize(SCREEN_DIMENSION);
+        frame.setLocationRelativeTo(null);
+        frame.revalidate();
+        frame.repaint();
+    }
+
+    public static void goFrontPage(Component origin, JPanel frontPage) {
+        JFrame frame = (JFrame) SwingUtilities.getWindowAncestor(origin);
+        frame.setContentPane(frontPage);
+        frame.setResizable(false);
+        frame.pack();
+        frame.setLocationRelativeTo(null);
+        frame.revalidate();
+        frame.repaint();
+    }
+
+    public static JPanel centerPanel(JPanel panel) {
+        JPanel centeredPanel = new JPanel(new GridBagLayout());
+        centeredPanel.setBackground(Color.BLACK);
+        centeredPanel.add(panel);
+
+        return centeredPanel;
+    }
+
     // Ventana portada.
     public static JFrame show(String title, JPanel panel, boolean resizable) {
         JFrame frame = new JFrame(title);
+        frame.setIconImage(new ImageIcon(
+                Util.class.getResource("/com/lorena/eldenring/images/icon.png")).getImage());
         frame.setContentPane(panel);
-        frame.setResizable(resizable);   // antes de pack()
+        frame.setResizable(resizable);
         frame.pack();
         frame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
         frame.addWindowListener(new java.awt.event.WindowAdapter() {

@@ -23,12 +23,8 @@ public class FrontPage {
         ImageFrontPage.setBorder(new LineBorder(new Color(169, 142, 85), 2));
 
         Util.styleButton(MenuButton);
-        MenuButton.addActionListener(e -> {
-            JFrame ventana = Util.show("Información del personaje",
-                    new CharacterInformation().getPanel());
-            ventana.setSize(700, 600);
-            ventana.setLocationRelativeTo(null);
-        });
+        MenuButton.addActionListener(e ->
+                Util.switchScreens(FrontPage, new CharacterInformation().getPanel()));
     }
 
     public JPanel getPanel() {

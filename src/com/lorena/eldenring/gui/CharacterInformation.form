@@ -4,12 +4,12 @@
     <rowspec value="center:17px:noGrow"/>
     <rowspec value="center:36px:noGrow"/>
     <rowspec value="center:19px:noGrow"/>
-    <rowspec value="center:99px:noGrow"/>
+    <rowspec value="center:102px:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
     <rowspec value="center:20px:noGrow"/>
     <rowspec value="center:19px:noGrow"/>
-    <rowspec value="center:max(d;4px):noGrow"/>
-    <rowspec value="center:33px:noGrow"/>
-    <rowspec value="center:16px:noGrow"/>
+    <rowspec value="center:19px:noGrow"/>
     <rowspec value="center:d:grow"/>
     <colspec value="fill:801px:grow"/>
     <constraints>
@@ -29,7 +29,7 @@
       </component>
       <component id="8d24" class="javax.swing.JLabel" binding="txtDate">
         <constraints>
-          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
           <forms/>
         </constraints>
         <properties>
@@ -38,7 +38,7 @@
       </component>
       <component id="15bdf" class="javax.swing.JLabel" binding="txtItem">
         <constraints>
-          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
           <forms/>
         </constraints>
         <properties>
@@ -74,46 +74,6 @@
         </constraints>
         <properties>
           <text value=""/>
-        </properties>
-      </component>
-      <component id="a5711" class="javax.swing.JComboBox" binding="JComboBoxM">
-        <constraints>
-          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
-          <forms/>
-        </constraints>
-        <properties>
-          <model>
-            <item value="𝔙𝔞𝔤𝔞𝔫𝔱𝔢"/>
-            <item value="𝔊𝔲𝔢𝔯𝔯𝔢𝔯𝔬"/>
-            <item value="ℌ𝔢́𝔯𝔬𝔢"/>
-            <item value="𝔅𝔞𝔫𝔡𝔦𝔡𝔬"/>
-            <item value="𝔓𝔯𝔬𝔣𝔢𝔱𝔞"/>
-            <item value="𝔄𝔰𝔱𝔯𝔬́𝔩𝔬𝔤𝔬"/>
-            <item value="𝔓𝔯𝔦𝔰𝔦𝔬𝔫𝔢𝔯𝔬"/>
-            <item value="𝔖𝔞𝔪𝔲𝔯𝔞́𝔦"/>
-            <item value="𝔐𝔦𝔰𝔢𝔯𝔞𝔟𝔩𝔢"/>
-            <item value="ℭ𝔬𝔫𝔣𝔢𝔰𝔬𝔯"/>
-          </model>
-        </properties>
-      </component>
-      <component id="f1675" class="javax.swing.JComboBox" binding="JComboBoxF">
-        <constraints>
-          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
-          <forms/>
-        </constraints>
-        <properties>
-          <model>
-            <item value="𝔙𝔞𝔤𝔞𝔫𝔱𝔢"/>
-            <item value="𝔊𝔲𝔢𝔯𝔯𝔢𝔯𝔞"/>
-            <item value="ℌ𝔢́𝔯𝔬𝔢"/>
-            <item value="𝔅𝔞𝔫𝔡𝔦𝔡𝔞"/>
-            <item value="𝔓𝔯𝔬𝔣𝔢𝔱𝔞"/>
-            <item value="𝔄𝔰𝔱𝔯𝔬́𝔩𝔬𝔤𝔞"/>
-            <item value="𝔓𝔯𝔦𝔰𝔦𝔬𝔫𝔢𝔯𝔞"/>
-            <item value="𝔖𝔞𝔪𝔲𝔯𝔞́𝔦"/>
-            <item value="𝔐𝔦𝔰𝔢𝔯𝔞𝔟𝔩𝔢"/>
-            <item value="ℭ𝔬𝔫𝔣𝔢𝔰𝔬𝔯𝔞"/>
-          </model>
         </properties>
       </component>
       <component id="ee613" class="javax.swing.JLabel" binding="txtName">
@@ -156,6 +116,46 @@
           </component>
         </children>
       </grid>
+      <component id="a5711" class="javax.swing.JComboBox" binding="JComboBoxM">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="𝔙𝔞𝔤𝔞𝔫𝔱𝔢"/>
+            <item value="𝔊𝔲𝔢𝔯𝔯𝔢𝔯𝔬"/>
+            <item value="ℌ𝔢́𝔯𝔬𝔢"/>
+            <item value="𝔅𝔞𝔫𝔡𝔦𝔡𝔬"/>
+            <item value="𝔓𝔯𝔬𝔣𝔢𝔱𝔞"/>
+            <item value="𝔄𝔰𝔱𝔯𝔬́𝔩𝔬𝔤𝔬"/>
+            <item value="𝔓𝔯𝔦𝔰𝔦𝔬𝔫𝔢𝔯𝔬"/>
+            <item value="𝔖𝔞𝔪𝔲𝔯𝔞́𝔦"/>
+            <item value="𝔐𝔦𝔰𝔢𝔯𝔞𝔟𝔩𝔢"/>
+            <item value="ℭ𝔬𝔫𝔣𝔢𝔰𝔬𝔯"/>
+          </model>
+        </properties>
+      </component>
+      <component id="f1675" class="javax.swing.JComboBox" binding="JComboBoxF">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="𝔙𝔞𝔤𝔞𝔫𝔱𝔢"/>
+            <item value="𝔊𝔲𝔢𝔯𝔯𝔢𝔯𝔞"/>
+            <item value="ℌ𝔢́𝔯𝔬𝔢"/>
+            <item value="𝔅𝔞𝔫𝔡𝔦𝔡𝔞"/>
+            <item value="𝔓𝔯𝔬𝔣𝔢𝔱𝔞"/>
+            <item value="𝔄𝔰𝔱𝔯𝔬́𝔩𝔬𝔤𝔞"/>
+            <item value="𝔓𝔯𝔦𝔰𝔦𝔬𝔫𝔢𝔯𝔞"/>
+            <item value="𝔖𝔞𝔪𝔲𝔯𝔞́𝔦"/>
+            <item value="𝔐𝔦𝔰𝔢𝔯𝔞𝔟𝔩𝔢"/>
+            <item value="ℭ𝔬𝔫𝔣𝔢𝔰𝔬𝔯𝔞"/>
+          </model>
+        </properties>
+      </component>
     </children>
   </grid>
   <buttonGroups>
