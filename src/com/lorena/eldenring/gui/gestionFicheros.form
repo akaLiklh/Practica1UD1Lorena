@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.lorena.eldenring.gui.fierh">
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.lorena.eldenring.gui.gestionFicheros">
   <grid id="27dc6" binding="panelPrincipal" layout-manager="FormLayout">
     <rowspec value="center:max(d;4px):noGrow"/>
     <rowspec value="center:33px:noGrow"/>

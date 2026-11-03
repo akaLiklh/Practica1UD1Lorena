@@ -1,17 +1,25 @@
 package com.lorena.eldenring.gui;
 
-
 import util.Util;
 
 import javax.swing.*;
 import javax.swing.border.LineBorder;
 import java.awt.*;
 
+/**
+ * VISTA de la portada (formulario {@code FrontPage.form}).
+ * <p>
+ * Muestra la imagen de portada y el botón "Empezar". El botón lo gestiona el
+ * CharacterController, que lleva a la pantalla de creación del personaje.
+ *
+ */
 public class FrontPage {
     private JPanel FrontPage;
     private JLabel ImageFrontPage;
-    private JButton MenuButton;
+    /** Botón "Empezar" de la portada (lo usa el controlador). */
+    JButton MenuButton;
 
+    /** Crea la portada y le aplica los estilos. */
     public FrontPage() {
         FrontPage.setBackground(Color.BLACK);
 
@@ -20,13 +28,12 @@ public class FrontPage {
         Image scaled = original.getImage().getScaledInstance(300, 500, Image.SCALE_SMOOTH);
 
         ImageFrontPage.setIcon(new ImageIcon(scaled));
-        ImageFrontPage.setBorder(new LineBorder(new Color(169, 142, 85), 2));
+        ImageFrontPage.setBorder(new LineBorder(Util.GOLDEN, 2));
 
         Util.styleButton(MenuButton);
-        MenuButton.addActionListener(e ->
-                Util.switchScreens(FrontPage, new CharacterInformation().getPanel()));
     }
 
+    /** @return panel principal de la portada */
     public JPanel getPanel() {
         return FrontPage;
     }
