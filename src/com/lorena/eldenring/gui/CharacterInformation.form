@@ -4,13 +4,14 @@
     <rowspec value="center:17px:noGrow"/>
     <rowspec value="center:36px:noGrow"/>
     <rowspec value="center:19px:noGrow"/>
-    <rowspec value="center:102px:noGrow"/>
+    <rowspec value="center:103px:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
     <rowspec value="center:max(d;4px):noGrow"/>
     <rowspec value="center:max(d;4px):noGrow"/>
     <rowspec value="center:20px:noGrow"/>
-    <rowspec value="center:19px:noGrow"/>
-    <rowspec value="center:19px:noGrow"/>
-    <rowspec value="center:d:grow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
     <colspec value="fill:801px:grow"/>
     <constraints>
       <xy x="20" y="77" width="995" height="579"/>
@@ -29,29 +30,11 @@
       </component>
       <component id="8d24" class="javax.swing.JLabel" binding="txtDate">
         <constraints>
-          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-          <forms/>
-        </constraints>
-        <properties>
-          <text value="ℑ𝔫𝔱𝔯𝔬𝔡𝔲𝔠𝔢 𝔩𝔞 𝔣𝔢𝔠𝔥𝔞 𝔡𝔢 𝔫𝔞𝔠𝔦𝔪𝔢𝔫𝔱𝔬:"/>
-        </properties>
-      </component>
-      <component id="15bdf" class="javax.swing.JLabel" binding="txtItem">
-        <constraints>
           <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
           <forms/>
         </constraints>
         <properties>
-          <text value="𝔖𝔢𝔩𝔢𝔠𝔠𝔦𝔬𝔫𝔞 𝔲𝔫 𝔦𝔱𝔢𝔪 𝔦𝔫𝔦𝔠𝔦𝔞𝔩::"/>
-        </properties>
-      </component>
-      <component id="616c0" class="javax.swing.JLabel" binding="txtClasses">
-        <constraints>
-          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-          <forms/>
-        </constraints>
-        <properties>
-          <text value="𝔖𝔢𝔩𝔢𝔠𝔠𝔦𝔬𝔫𝔞 𝔲𝔫𝔞 𝔠𝔩𝔞𝔰𝔢:"/>
+          <text value="ℑ𝔫𝔱𝔯𝔬𝔡𝔲𝔠𝔢 𝔩𝔞 𝔣𝔢𝔠𝔥𝔞 𝔡𝔢 𝔫𝔞𝔠𝔦𝔪𝔢𝔫𝔱𝔬:"/>
         </properties>
       </component>
       <component id="5c41f" class="javax.swing.JTextField" binding="textFieldName">
@@ -60,17 +43,6 @@
             <preferred-size width="150" height="-1"/>
           </grid>
           <forms defaultalign-horz="false"/>
-        </constraints>
-        <properties>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="cdc2f" class="javax.swing.JTextArea" binding="textAreaClasses">
-        <constraints>
-          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="50"/>
-          </grid>
-          <forms defaultalign-horz="false" defaultalign-vert="false"/>
         </constraints>
         <properties>
           <text value=""/>
@@ -118,12 +90,11 @@
       </grid>
       <component id="a5711" class="javax.swing.JComboBox" binding="JComboBoxM">
         <constraints>
-          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
           <forms/>
         </constraints>
         <properties>
           <model>
-            <item value="𝔙𝔞𝔤𝔞𝔫𝔱𝔢"/>
             <item value="𝔊𝔲𝔢𝔯𝔯𝔢𝔯𝔬"/>
             <item value="ℌ𝔢́𝔯𝔬𝔢"/>
             <item value="𝔅𝔞𝔫𝔡𝔦𝔡𝔬"/>
@@ -138,12 +109,11 @@
       </component>
       <component id="f1675" class="javax.swing.JComboBox" binding="JComboBoxF">
         <constraints>
-          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
           <forms/>
         </constraints>
         <properties>
           <model>
-            <item value="𝔙𝔞𝔤𝔞𝔫𝔱𝔢"/>
             <item value="𝔊𝔲𝔢𝔯𝔯𝔢𝔯𝔞"/>
             <item value="ℌ𝔢́𝔯𝔬𝔢"/>
             <item value="𝔅𝔞𝔫𝔡𝔦𝔡𝔞"/>
@@ -154,6 +124,93 @@
             <item value="𝔐𝔦𝔰𝔢𝔯𝔞𝔟𝔩𝔢"/>
             <item value="ℭ𝔬𝔫𝔣𝔢𝔰𝔬𝔯𝔞"/>
           </model>
+        </properties>
+      </component>
+      <component id="616c0" class="javax.swing.JLabel" binding="txtClasses">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="𝔖𝔢𝔩𝔢𝔠𝔠𝔦𝔬𝔫𝔞 𝔲𝔫𝔞 𝔠𝔩𝔞𝔰𝔢:"/>
+        </properties>
+      </component>
+      <grid id="15f23" binding="ItemsPanel" layout-manager="FormLayout">
+        <rowspec value="center:d:noGrow"/>
+        <rowspec value="center:19px:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:d:grow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:d:grow"/>
+        <colspec value="fill:d:noGrow"/>
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="c4083" class="javax.swing.JSlider" binding="itemsSlide">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-horz="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="15bdf" class="javax.swing.JLabel" binding="txtItem">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <text value="𝔖𝔢𝔩𝔢𝔠𝔠𝔦𝔬𝔫𝔞 𝔲𝔫 𝔦𝔱𝔢𝔪 𝔦𝔫𝔦𝔠𝔦𝔞𝔩:"/>
+            </properties>
+          </component>
+          <component id="bd744" class="javax.swing.JLabel" binding="lblName">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="7403f" class="javax.swing.JLabel" binding="lblImagen">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <scrollpane id="ac659" binding="ScrollPanelItems">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-horz="false" defaultalign-vert="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="cdc2f" class="javax.swing.JTextArea" binding="txtDescription">
+                <constraints/>
+                <properties>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <component id="1fd15" class="javax.swing.JButton" binding="endCharcButton">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="Terminar"/>
         </properties>
       </component>
     </children>

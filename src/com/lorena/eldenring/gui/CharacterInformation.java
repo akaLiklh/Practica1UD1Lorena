@@ -13,7 +13,7 @@ public class CharacterInformation {
     private JPanel genderPanel;
 
     private JTextField textFieldName;
-    private JTextArea textAreaClasses;
+    private JTextArea txtDescription;
 
     private JRadioButton maleButton;
     private JRadioButton femButton;
@@ -26,6 +26,12 @@ public class CharacterInformation {
     private JLabel txtDate;
     private JLabel txtItem;
     private JLabel txtClasses;
+    private JSlider itemsSlide;
+    private JPanel ItemsPanel;
+    private JLabel lblName;
+    private JLabel lblImagen;
+    private JScrollPane ScrollPanelItems;
+    private JButton endCharcButton;
 
     private JPanel centeredPanel;
 
@@ -51,7 +57,7 @@ public class CharacterInformation {
         Util.styleLabel(txtItem);
         Util.styleLabel(txtClasses);
         Util.styleTextField(textFieldName);
-        Util.styleTextArea(textAreaClasses);
+        Util.styleTextArea(txtDescription);
         Util.styleComboBox(JComboBoxM);
         Util.styleComboBox(JComboBoxF);
         Util.styleRadioButton(maleButton);
