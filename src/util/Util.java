@@ -3,6 +3,7 @@ package util;
 import javax.swing.*;
 import javax.swing.border.LineBorder;
 import javax.swing.filechooser.FileNameExtensionFilter;
+import com.github.lgooddatepicker.components.DatePicker;
 import java.awt.*;
 import java.io.File;
 
@@ -46,6 +47,11 @@ public class Util {
         c.setBackground(GREEN);
         c.setForeground(Color.WHITE);
         c.setBorder(new LineBorder(GOLDEN, 1));
+    }
+
+    public static void styleDatePicker(DatePicker datePicker) {
+        styleTextField(datePicker.getComponentDateTextField());
+        styleButton(datePicker.getComponentToggleCalendarButton());
     }
 
     public static void styleRadioButton(JRadioButton r) {
