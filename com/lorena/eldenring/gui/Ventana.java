@@ -2,7 +2,7 @@ package com.lorena.eldenring.gui;
 
 import javax.swing.*;
 
-public class Seleccion {
+public class Ventana {
     private JButton bActualizar;
     private JPanel panel1;
     private JButton bAñadir;
