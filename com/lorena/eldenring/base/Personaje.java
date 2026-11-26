@@ -2,7 +2,7 @@ package com.lorena.eldenring.base;
 
 import java.time.LocalDate;
 
-public class Personaje {
+public abstract class Personaje {
     private String nombre;
     private LocalDate fechaNacimiento;
     private int nivel;
